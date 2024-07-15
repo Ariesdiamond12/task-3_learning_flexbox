@@ -1,0 +1,36 @@
+.row {
+  display: flex;
+  gap: 0.5rem;
+  /* align-content: space-between; */
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.content-side {
+  height: 150px;
+  width: 250px;
+  background-color: #06d001;
+}
+
+.content-middle {
+  height: 150px;
+  width: 150px;
+  background-color: #ff1e1e;
+}
+
+.content_outer_side {
+  height: 180px;
+  width: 180px;
+  background-color: #1cd6ce;
+}
+
+.content {
+  width: 170px;
+  border-radius: 255px;
+  background-color: #f7ec09;
+}
+.parent-element {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
